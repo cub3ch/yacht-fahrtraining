@@ -47,7 +47,7 @@ header {
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     padding: 0 20px 0 0;
     position: relative;
@@ -58,6 +58,8 @@ header {
     align-items: flex-start;
     padding: 0;
     margin: 0;
+    position: relative;
+    z-index: 10;
 }
 
 .logo-img {
@@ -100,7 +102,10 @@ header {
     list-style: none;
     gap: 2rem;
     padding: 1.5rem 0;
-    position: relative;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 10;
 }
 
